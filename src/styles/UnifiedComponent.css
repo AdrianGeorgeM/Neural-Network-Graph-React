@@ -1,0 +1,80 @@
+.wrapper {
+}
+
+/* Container for sidebar and filters */
+.sidebar-and-filters {
+	display: flex;
+	flex-direction: column;
+	background-color: #fff;
+	border-radius: 5px;
+
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+	margin-bottom: 20px;
+}
+
+/* Style for buttons in NodeManager */
+button {
+	background-color: #007bff;
+	color: #fff;
+	border: none;
+	border-radius: 4px;
+	padding: 10px 20px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+button:disabled {
+	background-color: #ccc;
+	cursor: not-allowed;
+}
+
+/* Style for Remove Selected Node button */
+button.remove-node {
+	background-color: blue;
+}
+
+/* Style for FilterAndSearch inputs */
+input[type='text'] {
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	margin-right: 10px;
+}
+
+/* Style for the ReactFlow container */
+.react-flow {
+	flex: 1;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	position: relative;
+}
+
+/* Style for selected nodes */
+.react-flow__node.selected-node {
+	color: red;
+}
+
+.new-node {
+	cursor: pointer;
+}
+.panel {
+	margin-bottom: 10px;
+}
+
+.variant-label {
+	margin-bottom: 10px;
+}
+
+.variant-button {
+	background-color: #007bff;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	padding: 5px 10px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+.variant-button.selected {
+	background-color: #dc3545;
+}

@@ -1,0 +1,39 @@
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+.tooltip-container {
+	position: fixed;
+	background: rgba(10, 25, 41, 0.9);
+	padding: 10px;
+	border: 1px solid #1abc9c;
+	border-radius: 5px;
+	pointer-events: none;
+	box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+	color: #1abc9c;
+	font-size: 14px;
+	font-weight: 500;
+	z-index: 1000;
+	font-family: 'Monospace';
+	text-align: center;
+	animation: fadeIn 0.3s;
+}
+
+.tooltip-container .operator-type {
+	color: #f1c40f;
+	font-weight: 700;
+	margin-right: 5px;
+}
+
+.tooltip-container .data-type {
+	color: #e74c3c;
+	font-weight: 600;
+	background-color: #ecf0f1;
+	padding: 2px 5px;
+	border-radius: 3px;
+}

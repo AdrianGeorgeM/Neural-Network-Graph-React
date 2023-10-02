@@ -1,0 +1,45 @@
+.node-manager {
+	display: flex;
+	justify-content: left;
+	padding: 10px;
+	background: #f0f0f0;
+	border-radius: 5px;
+}
+
+.add-button {
+	background-color: #29b6f6;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	padding: 5px 10px;
+	margin-right: 10px;
+	cursor: pointer;
+	transition: background-color 0.2s;
+}
+
+.add-button:hover {
+	background-color: #007bff;
+}
+
+.remove-button {
+	background-color: #ccc;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	padding: 5px 10px;
+	cursor: not-allowed;
+}
+
+.remove-button.enabled {
+	background-color: #dc3545;
+	cursor: pointer;
+}
+
+.new-node {
+	border: 2px solid #4caf50;
+	transition: border 0.2s;
+}
+
+.new-node:hover {
+	border: 2px solid #388e3c;
+}

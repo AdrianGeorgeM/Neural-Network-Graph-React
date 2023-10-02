@@ -1,0 +1,75 @@
+.container {
+	margin-bottom: 20px;
+	display: flex;
+	gap: 20px;
+	background-color: #f5f5f5;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+	align-items: center;
+	transition: box-shadow 0.3s ease;
+}
+
+.container:hover {
+	box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+}
+
+.select {
+	padding: 10px 15px;
+	border: 1px solid #e0e0e0;
+	background-color: #ffffff;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+	font-size: 16px;
+	width: 220px;
+	border-radius: 6px;
+	transition: border-color 0.3s ease;
+}
+
+.select:focus {
+	border-color: #007bff;
+	outline: none;
+}
+
+.searchBox {
+	position: relative;
+	flex-grow: 1;
+	display: flex;
+	align-items: center;
+	background-color: #ffffff;
+	border-radius: 6px;
+	border: 1px solid #e0e0e0;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+	overflow: hidden;
+	transition: border-color 0.3s ease;
+}
+
+.searchBox:hover,
+.searchBox:focus-within {
+	border-color: #007bff;
+}
+
+.input {
+	padding: 10px 15px;
+	border-radius: 6px;
+	border: none;
+	flex-grow: 1;
+	font-size: 16px;
+	transition: background-color 0.3s ease;
+}
+
+.input:focus {
+	background-color: #f0f0f0;
+	outline: none;
+}
+
+.icon {
+	padding: 10px 15px;
+	background-color: #f5f5f5;
+	border-radius: 6px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+.icon:hover {
+	background-color: #e0e0e0;
+}

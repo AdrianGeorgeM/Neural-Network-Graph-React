@@ -1,0 +1,90 @@
+.sidebar {
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 300px;
+	height: 100%;
+	background: #1f2f3d;
+	padding: 20px;
+	box-sizing: border-box;
+	overflow-y: auto;
+	box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+	transition: transform 0.3s ease-in-out;
+	border-left: 1px solid #1c1c1c;
+	z-index: 1000;
+	font-family: 'Arial, sans-serif';
+	display: flex;
+	flex-direction: column;
+}
+
+/* Sidebar Header */
+.sidebar-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.sidebar-header h2 {
+	margin: 0;
+	color: #ecf0f1;
+}
+
+.closeButton {
+	background: transparent;
+	border: none;
+	font-size: 1.5em;
+	color: #ecf0f1;
+	cursor: pointer;
+}
+
+.closeButton:hover {
+	color: #e74c3c;
+}
+
+/* Sidebar Content */
+.sidebar-content h3 {
+	color: #ecf0f1;
+	margin-bottom: 10px;
+}
+
+.sidebar-content h4 {
+	color: #bdc3c7;
+	margin-bottom: 5px;
+}
+
+.sidebar-content ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.sidebar-content ul li {
+	margin-bottom: 10px;
+	color: #bdc3c7;
+}
+
+/* Tooltip */
+.tooltip {
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.tooltip .info-icon {
+	color: #3498db;
+	margin-left: 5px;
+}
+
+.tooltip:hover::after {
+	content: attr(title);
+	position: absolute;
+	top: -1.5em;
+	left: 50%;
+	transform: translateX(-50%);
+	background-color: #333;
+	color: #fff;
+	padding: 0.5em;
+	border-radius: 4px;
+	white-space: nowrap;
+	pointer-events: none;
+}
