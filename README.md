@@ -1,9 +1,5 @@
 # Neural Network Graph Visualization with React 📊🧠
 
-<p align="center" borderRadius="10%">
-  <img src="./public/logo.jpeg" alt="Project Logo">
-</p>
-
 Welcome to the Neural Network Graph Visualization project, an endeavor pioneered with zeal, utilizing the power of React. This platform is designed to provide a dynamic and interactive visualization of artificial neural networks (ANN), wherein each node represents a distinct neural network operator (such as Convolution, ReLU, Pooling, etc.), and the edges illustrate the data flow amongst them.
 
 ## Table of Contents
@@ -79,8 +75,8 @@ Initiate your engagement with the Neural Network Graph Visualization project:
 
 1. **Clone the Repository**:
 ```bash
-git clone https://github.com/AdrianGeorgeM/Neural-Network-Graph.git
-cd Neural-Network-Graph
+git clone https://github.com/AdrianGeorgeM/Neural-Network-Graph-React.git
+cd Neural-Network-Graph-React
 ```
 
 2. **Install Dependencies**:
@@ -95,8 +91,14 @@ npm start
 
 Access the application at [http://localhost:3000](http://localhost:3000).
 
+...
+
 ## License 📝
-Project Neural Network Graph Visualization
+
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/AdrianGeorgeM/Neural-Network-Graph-React/blob/main/LICENSE.md) file for details.
+
+...
+
 
 ## Submission ✉️
 
